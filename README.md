@@ -11,6 +11,7 @@
 ### TODO: 
 * polish images in the additional info blocks
 * polish other images
+* tutorial page
 
 
 
