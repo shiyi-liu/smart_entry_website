@@ -1424,10 +1424,11 @@ input[type="radio"]:checked + * .g-overlay-primary-0_9--checked::after,
 
 /* To make cols with equal heights */
 .custom-col-container {
-  display: flex;
+  display: table;
   width: 100%;
 }
 .custom-col {
   flex: 1;
   padding: 16px;
+  display: table-cell;
 }
