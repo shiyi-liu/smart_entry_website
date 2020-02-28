@@ -157,20 +157,20 @@
           <h3 class="h5 d-inline-block g-brd-2 g-brd-black g-color-black g-font-weight-600 g-pb-5">Visitor Entry Intercom and Access Control Systems for Gated Communities and Multi-Tenant Properties</h3>
         </div>
         <div data-animation="fadeInUp" data-animation-delay="1100" data-animation-duration="1500">
-          <a class="btn btn-lg u-btn-outline-black g-font-weight-600 g-font-size-13 text-uppercase g-rounded-50 mx-2 g-px-25 g-py-15 g-mb-20" href="#">Discover More</a>
-          <a class="btn btn-lg u-btn-primary g-font-weight-600 g-font-size-13 text-uppercase g-rounded-50 mx-2 g-px-25 g-py-15 g-mb-20" href="../pages/page-login-and-signup-1.html" onclick="fctPurchase()">Login / Register</a>
+          <a class="btn btn-lg u-btn-outline-black g-font-weight-600 g-font-size-13 text-uppercase g-rounded-50 mx-2 g-px-25 g-py-15 g-mb-20 text-black" id="discoverMore">Discover More</a>
+          <a class="btn btn-lg u-btn-primary g-font-weight-600 g-font-size-13 text-uppercase g-rounded-50 mx-2 g-px-25 g-py-15 g-mb-20" href="../pages/page-login-and-signup-1.html" >Login / Register</a>
         </div>
       </div>
     </section>
     <!-- End Promo Block -->
 
     <!-- About -->
-    <section class="g-pt-100 g-pb-100">
+    <section class="g-pt-100 g-pb-100" id="blockAbout">
       <div class="container">
         <!-- Image, Text Block -->
         <div class="row d-flex align-items-lg-center flex-wrap g-mb-60 g-mb-0--lg">
           <div class="col-md-6 col-lg-8">
-            <img class="img-fluid rounded" src="../../assets/img/bg/homepage_low_cost.jpg" alt="Low Price">
+            <img class="img-fluid rounded w-75" src="../../assets/img/bg/homepage_low_cost.jpg" alt="Low Price">
           </div>
           <div class="col-md-6 col-lg-4">
             <div class="g-mt-minus-30 g-mt-0--md g-ml-minus-100--lg">
@@ -179,7 +179,7 @@
                   </h2>
                 <p class="g-font-size-16" ></p>
               </div>
-              <a class="btn u-btn-primary g-brd-2 g-brd-white g-font-size-13 g-rounded-50 g-pl-20 g-pr-15 g-py-9" href="#">
+              <a class="btn u-btn-primary g-brd-2 g-brd-white g-font-size-13 g-rounded-50 g-pl-20 g-pr-15 g-py-9" href="../pages/page-services-3.html">
                   More details
                   <span class="align-middle u-icon-v3 g-width-16 g-height-16 g-color-black g-bg-white g-font-size-11 rounded-circle ml-3">
                     <i class="fa fa-angle-right"></i>
@@ -206,7 +206,7 @@
                   </h2>
                 <p class="g-font-size-16"></p>
               </div>
-              <a class="btn u-btn-primary g-brd-2 g-brd-white g-font-size-13 g-rounded-50 g-pl-20 g-pr-15 g-py-9" href="#">
+              <a class="btn text-white u-btn-primary g-brd-2 g-brd-white g-font-size-13 g-rounded-50 g-pl-20 g-pr-15 g-py-9" id="powerfulFeature">
                   Read more
                   <span class="align-middle u-icon-v3 g-width-16 g-height-16 g-color-black g-bg-white g-font-size-11 rounded-circle ml-3">
                     <i class="fa fa-angle-right"></i>
@@ -221,7 +221,7 @@
     <!-- End About -->
 
     <!-- Icon Blocks -->
-    <section class="g-bg-secondary">
+    <section class="g-bg-secondary" id="featurelist">
       <div class="container g-pt-100 g-pb-130">
         <!-- Icon Blocks -->
         <div class="row no-gutters">
@@ -234,8 +234,8 @@
             </div>
           </div>
 
-          <div class="col-lg-9">
-            <div class="js-carousel" data-infinite="true" data-slides-show="3" data-slides-scroll="3" data-center-mode="true" data-center-padding="1px" data-pagi-classes="u-carousel-indicators-v1 g-absolute-centered--x g-bottom-minus-30" data-responsive='[{
+          <div class="col-lg-9 container">
+            <div class="js-carousel container" data-infinite="true" data-slides-show="3" data-slides-scroll="3" data-center-mode="true" data-center-padding="1px" data-pagi-classes="u-carousel-indicators-v1 g-absolute-centered--x g-bottom-minus-30" data-responsive='[{
                      "breakpoint": 992,
                      "settings": {
                        "slidesToShow": 2
@@ -248,7 +248,7 @@
                    }]'>
               <div class="js-slide">
                 <!-- Icon Blocks -->
-                <div class="u-shadow-v21--hover g-brd-around g-brd-gray-light-v3 g-brd-left-none g-brd-transparent--hover g-bg-white--hover g-transition-0_3 g-cursor-pointer g-px-30 g-pt-30 g-pb-50 g-ml-minus-1">
+                <div class="h-100 u-shadow-v21--hover g-brd-around g-brd-gray-light-v3 g-brd-left-none g-brd-transparent--hover g-bg-white--hover g-transition-0_3 g-cursor-pointer g-px-30 g-pt-30 g-pb-50 g-ml-minus-1">
                   <div class="mb-4">
                     <span class="d-block g-color-gray-dark-v4 g-font-weight-700 text-right mb-3">01</span>
                     <span class="u-icon-v3 u-shadow-v19 g-bg-white g-color-primary rounded-circle mb-4">
@@ -262,9 +262,9 @@
                 <!-- End Icon Blocks -->
               </div>
 
-              <div class="js-slide">
+              <div class="h-100 js-slide">
                 <!-- Icon Blocks -->
-                <div class="u-shadow-v21--hover g-brd-around g-brd-gray-light-v3 g-brd-left-none g-brd-transparent--hover g-bg-white--hover g-transition-0_3 g-cursor-pointer g-px-30 g-pt-30 g-pb-50 g-ml-minus-1">
+                <div class="h-100 u-shadow-v21--hover g-brd-around g-brd-gray-light-v3 g-brd-left-none g-brd-transparent--hover g-bg-white--hover g-transition-0_3 g-cursor-pointer g-px-30 g-pt-30 g-pb-50 g-ml-minus-1">
                   <div class="mb-4">
                     <span class="d-block g-color-gray-dark-v4 g-font-weight-700 text-right mb-3">02</span>
                     <span class="u-icon-v3 u-shadow-v19 g-bg-white g-color-primary rounded-circle mb-4">
@@ -513,9 +513,7 @@
           </header>
 
           <p class="g-color-white-opacity-0_7 g-mb-65">
-            <ul class="g-color-white-opacity-0_7">
-            <li>Allows communities to create a phone directory of not only common phone numbers the residents may need to call, but also nearby business vendors who are interested in offering their services to the community's residents. </li><br/> <li> The vendor's business and phone number will then be prominently displayed in each resident's phone app. </li><br/> <li>The HOA can then charge advertising fees to the vendors to have their business listed in the Merchant List, essentially turning our system into an income generating tool for the community.</li>
-          </ul>
+          Allows communities to create a phone directory of not only common phone numbers the residents may need to call, but also nearby business vendors who are interested in offering their services to the community's residents. <br/><br/>  The vendor's business and phone number will then be prominently displayed in each resident's phone app. <br/> <br/> The HOA can then charge advertising fees to the vendors to have their business listed in the Merchant List, essentially turning our system into an income generating tool for the community.
         </p>
 
         </div>
@@ -639,12 +637,12 @@
         <p class="lead">Meet our clients who are enjoying convenient and secure access control service.</p>
       </div>
 
-      <div class="shortcode-html">
+      <div class="shortcode-html container">
         <!-- Products Block -->
         <div class="row">
           <div class="col-md-6 col-lg-4 g-mb-30">
             <!-- Article -->
-            <article class="u-shadow-v19 g-bg-white g-rounded-bottom-4">
+            <article class="h-100 u-shadow-v19 g-bg-white g-rounded-bottom-4">
               <!-- Figure Image -->
               <figure>
                 <img class="w-100" src="../../assets/img/bg/clients_1.jpg" alt="Silver Palms">
@@ -670,7 +668,7 @@
   
           <div class="col-md-6 col-lg-4 g-mb-30 ">
             <!-- Article -->
-            <article class="u-shadow-v19 g-bg-white g-rounded-bottom-4">
+            <article class="h-100 u-shadow-v19  g-bg-white g-rounded-bottom-4">
               <!-- Figure Image -->
               <figure>
                 <img class="w-100" src="../../assets/img/bg/clients_3.jpg" alt="The Bank Lofts">
@@ -697,7 +695,7 @@
   
           <div class="col-md-6 col-lg-4 g-mb-30 ">
             <!-- Article -->
-            <article class="u-shadow-v19 g-bg-white g-rounded-bottom-4">
+            <article class="h-100 u-shadow-v19 g-bg-white g-rounded-bottom-4">
               <!-- Figure Image -->
               <figure>
                 <img class="w-100" src="../../assets/img/bg/clients_2.jpg" alt="The First Building">
@@ -750,11 +748,14 @@
 
     <!-- shows -->
     <section class="container g-py-100 ">
-    <div class="u-heading-v2-1--bottom g-brd-primary g-mb-30">
-      <h2 class="text-uppercase u-heading-v2__title g-mb-10">Recent & Upcoming Shows</h2>
+    <!-- <div class="u-heading-v2-1--bottom g-brd-primary g-mb-30">
+      <h2 class="text-uppercase u-heading-v2__title g-mb-10">Upcoming Shows</h2>
       <h4 class="g-font-weight-200">Come and see us at our upcoming shows! </h4>
+    </div> -->
+    <div class="text-center g-mb-70">
+      <h2 class="h1 g-color-black g-font-weight-600">Upcoming Shows </h2>
+      <p class="lead">Come and see us at our upcoming shows! </p>
     </div>
-    
     
     
     <div class="shortcode-html">
@@ -786,7 +787,7 @@
               <img class="img-fluid u-block-hover__main--zoom-v1" src="../../assets/img/bg/show-condo3.jpg" alt="South Florida">
             </figure>
             <header class="u-bg-overlay__inner g-pos-abs g-top-30 g-right-30 g-left-30 g-color-white">
-              <h3 class="h4">Condo & HOA Expo @ Sourh Florida</h3>
+              <h3 class="h4">Condo & HOA Expo @ South Florida</h3>
               Hyatt Regency | James L Knight Center
               <br/> April 4, 2020
             </header>
@@ -982,22 +983,14 @@
       });
 
       // TODO: modify functions to listen to btns and redirect to other pages
-      function fctDiscover() {
-        alert("run into discover");
-      }
-
-      function fctPurchase() {
-        alert("run into purchase");
-      }
-    //
-      $("#mega-menu-home").click(function(){
-        alert("run into home button in navi bar");
+      
+      $("#powerfulFeature").click(function () {
+        window.location="#featurelist";
       });
 
-      $("#nav-link-pages").click(function(){
-        alert ("You will visit external website (testing)");
+      $("#discoverMore").click(function () {
+        window.location="#blockAbout";
       });
-
   </script>
 
 
