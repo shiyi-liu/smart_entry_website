@@ -18345,7 +18345,7 @@ li:last-child .u-dot-line-v2::after, li:last-child
 
 .u-searchform-v1 .form-control,
 .u-searchform-v1--align-left .form-control {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  s: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 0.85714rem;
 }
 
@@ -21323,7 +21323,7 @@ video {
 
 .navbar .u-main-nav-v1 .nav-item.hs-has-sub-menu > a::after, .navbar .u-main-nav-v1 .nav-item.hs-has-mega-menu > a::after, .navbar .u-main-nav-v1 .nav-item.dropdown > a::after, .navbar .u-main-nav-v2 .nav-item.hs-has-sub-menu > a::after, .navbar .u-main-nav-v2 .nav-item.hs-has-mega-menu > a::after, .navbar .u-main-nav-v2 .nav-item.dropdown > a::after, .navbar .u-main-nav-v3 .nav-item.hs-has-sub-menu > a::after, .navbar .u-main-nav-v3 .nav-item.hs-has-mega-menu > a::after, .navbar .u-main-nav-v3 .nav-item.dropdown > a::after, .navbar .u-main-nav-v4 .nav-item.hs-has-sub-menu > a::after, .navbar .u-main-nav-v4 .nav-item.hs-has-mega-menu > a::after, .navbar .u-main-nav-v4 .nav-item.dropdown > a::after, .navbar .u-main-nav-v5 .nav-item.hs-has-sub-menu > a::after, .navbar .u-main-nav-v5 .nav-item.hs-has-mega-menu > a::after, .navbar .u-main-nav-v5 .nav-item.dropdown > a::after, .navbar .u-main-nav-v6 .nav-item.hs-has-sub-menu > a::after, .navbar .u-main-nav-v6 .nav-item.hs-has-mega-menu > a::after, .navbar .u-main-nav-v6 .nav-item.dropdown > a::after, .navbar .u-main-nav-v7 .nav-item.hs-has-sub-menu > a::after, .navbar .u-main-nav-v7 .nav-item.hs-has-mega-menu > a::after, .navbar .u-main-nav-v7 .nav-item.dropdown > a::after, .navbar .u-main-nav-v8 .nav-item.hs-has-sub-menu > a::after, .navbar .u-main-nav-v8 .nav-item.hs-has-mega-menu > a::after, .navbar .u-main-nav-v8 .nav-item.dropdown > a::after, .navbar .u-main-nav-v9 .nav-item.hs-has-sub-menu > a::after, .navbar .u-main-nav-v9 .nav-item.hs-has-mega-menu > a::after {
   content: "\e900";
-  font-family: "hs-icons";
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   font-weight: inherit;
   line-height: 1;
   position: absolute;
@@ -21706,7 +21706,7 @@ video {
 
 .navbar .u-sub-menu-v1 .hs-has-sub-menu .hs-has-sub-menu > a::after {
   content: "\e902";
-  font-family: "hs-icons";
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   position: absolute;
   top: 50%;
   right: 15px;
@@ -21823,7 +21823,7 @@ video {
 
 .navbar .u-sub-menu-v2 .hs-has-sub-menu .hs-has-sub-menu > a::after {
   content: "\e902";
-  font-family: "hs-icons";
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   position: absolute;
   top: 50%;
   right: 15px;
@@ -21948,7 +21948,7 @@ video {
 
 .navbar .u-sub-menu-v3 .hs-has-sub-menu .hs-has-sub-menu > a::after {
   content: "\e902";
-  font-family: "hs-icons";
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   position: absolute;
   top: 50%;
   right: 15px;
@@ -22073,7 +22073,7 @@ video {
 
 .navbar .u-sub-menu-v4 .hs-has-sub-menu .hs-has-sub-menu > a::after {
   content: "\e902";
-  font-family: "hs-icons";
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   position: absolute;
   top: 50%;
   right: 15px;

@@ -169,7 +169,7 @@
   Fonts
 ------------------------------------*/
 body {
-  font-family: Open Sans, Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 h1,
 .h1,
@@ -183,7 +183,7 @@ h5,
 .h5,
 h6,
 .h6 {
-  font-family: Open Sans, Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 a {
   color: #257fba;
@@ -1437,7 +1437,7 @@ input[type="radio"]:checked + * .g-overlay-primary-0_9--checked::after,
 /* Master Slider Template */
 .ms-partialview-template .ms-slide-info {
 	text-align: center;
-	font-family: "Lato";
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 	margin-top: 20px;
 	width: 100%;
 }

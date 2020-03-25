@@ -4055,7 +4055,7 @@
   Typography Font Family
 ------------------------------------*/
 .g-font-secondary {
-  font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 .g-font-code {
